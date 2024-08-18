@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>forms</title>
+</head>
+
+<body>
+
+    <div class="html-forms">
+        <div class="heading">
+            <h1>HTML ALL FORMS ELEMENT</h1>
+        </div>
+    </div>
+
+    <div class="main-div">
+        <div class="input-element">
+            <h2>The input Element</h2>
+            <form action=""><br>
+                <label for="fname">First name:</label><br>
+                <input type="text"><br>
+                <label for="iname">Last name:</label><br>
+                <input type="text"><br>
+                <label for="Number">Number</label><br>
+                <input type="number"><br><br>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div class="radio-buttons">
+            <h2>Radio Buttons</h2><br>
+            <p>Choose your favorite bike:</p><br>
+            <form>
+                <input type="radio" id="palser" name="fav_language" value="PALSER">
+                <label for="palser">PALSER</label><br>
+                <input type="radio" id="bazaz" name="fav_language" value="BAZAZ">
+                <label for="bazaz">BAZAZ</label><br>
+                <input type="radio" id="discover" name="fav_language" value="DISCOVER">
+                <label for="discover">DISCOVER</label><br><br>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div class="buttons">
+            <h2>Image button</h2>
+            <input type="image" id="img" name="fav_language">
+            <label for="img"></label><br><br>
+             
+            <h2>Date Button</h2>
+            <input type="date" id="html" name="fav_language">
+            <label for="html"></label><br><br>
+
+            <h2>Color Button</h2>
+            <input type="color" id="html" name="fav_language">
+            <label for="html"></label><br><br>
+
+            
+
+        </div><br>
+
+        <div class="checkbox">
+            <h2>Checkbox</h2><br>
+            <form>
+                <input type="checkbox" id="vehicle" name="vehicle" value="Bike">
+                <label for="vehicle"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle" name="vehicle" value="Car">
+                <label for="vehicle"> I have a car</label><br>
+                <input type="checkbox" id="vehicle" name="vehicle" value="Boat">
+                <label for="vehicle"> I have a boat</label><br><br>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div class="form-autocomplete">
+            <h2>The form autocomplete</h2><br>
+            <p>Enter your name or email:</p><br>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div class="select-element">
+            <h2>The select Element</h2><br>
+            <form>
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars">
+                    <option value="toyota">toyota</option>
+                    <option value="tata">tata</option>
+                    <option value="hounda">hounda</option>
+                    <option value="isuzu">isuzu</option>
+                </select>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div class="Multiple-selection">
+            <h2>Allow Multiple Selections</h2><br>
+            <form>
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars" size="4">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select><br><br>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div class="textarea">
+            <h2>Textarea</h2><br>
+            <form>
+                <textarea name="message" rows="10"
+                    cols="30">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, molestias.</textarea>
+                <br>
+                <input type="submit">
+            </form>
+        </div><br>
+
+        <div>
+            <h2>Grouping From data</h2><br>
+            <form>
+                <fieldset style="width: 25%">
+                  <legend>Personalia:</legend>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname"><br>
+                  <label for="iname">Number:</label><br>
+                  <input type="number"><br>
+                  <input type="submit" value="Submit">
+                </fieldset>
+              </form>
+        </div><br>
+
+        <div class="datalist">
+            <h2>Datalist:</h2>
+            <form>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                  <option value="Edge">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+                </datalist>
+                <input type="submit">
+              </form>
+        </div><br>
+
+        <div class="output-element">
+          <h2>The Output Element</h2><br>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+               0
+               <input type="range" id="a" name="a" value="100">
+               200 +
+               <input type="number" id="b" name="b" value="100">
+               =
+               <output name="x" for="a b"></output><br><br>
+               <input type="submit">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  Top navbar section start ...........................*/
+.container{
+    max-width: 1680px;
+    margin: auto;
+}
+#top-navbar{
+    background: rgb(255, 82, 3);
+}
+.top-navb{  
+    display: flex;
+    color: white;
+    padding: 25px;
+}
+.top-navb i{
+    color: #ffffff;
+    font-size: 23px; 
+    margin-top: 5px; 
+    margin-left: 27px;   
+}
+.top-navb p{
+    margin-left: 12px;
+}   
+.top-nav{
+    display: flex;
+    width: 50%;
+    font-size: 25px;  
+}
+.sec-nav{
+    display: flex;
+    width: 50%;
+    font-size: 25px;
+    margin-left: 430px;
+}
+.sec-nav i{
+    margin-left: 35px; 
+    border-radius: 10%px; 
+}
+.border{
+    border-right: 1px solid green;
+    margin-left: 23px;
+}
+/*  Top navbar section end  ...........................*/
+/* main navbar start ................................. */
+.navbar{
+    display: flex;
+    background-color:white;
+}
+.nav-logo{
+    width: 30%;
+    padding: 30px;
+    margin-left: 87px;
+}
+.nav-item{
+    display: flex;
+    width: 70%; 
+    font-size: 25px;
+    padding: 52px;
+}
+.nav-item ul{
+    list-style: none;
+    display: flex;
+    margin-left: 108px;
+}
+.nav-item ul a{
+    text-decoration: none;
+    margin-left: 55px;
+}
+.nav-item i{
+    margin-left: 180px;
+}
+.nav-item ul li :hover{
+    color: #ec7347;
+}
+/* Main navbar section end ...........................*/
+
+   

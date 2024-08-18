@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login form</title>
+</head>
+<body>
+ 
+  <div class="body">
+ 
+    <div class="main">
+
+      <h1>Contact Us</h1>
+
+        <form>
+
+         <div class="name" style="width: 105%;">
+          <div class="input-text">
+            <label for="Name">Name*</label>
+            <input type="text" placeholder="First name">
+          </div>
+          <div class="input-text" style="width: 70%; padding-top: 8px;"><br>
+            <input type="text" placeholder="Last name">
+          </div>
+         </div><br>
+
+          <div class="input-box">
+            <label for="Email address">Email address*</label>
+            <input type="text" placeholder="Email">
+          </div><br>
+
+          <div class="input-box">
+            <label for="industry">Your Industry*</label>
+            <input list="industry" placeholder="Choose one">           
+            <datalist id="industry">             
+              <option value="pabna">
+              <option value="dhaka">
+              <option value="rajshahi">
+              <option value="khulna">
+              <option value="syllet">
+            </datalist>
+          </div><br>
+
+          <div class="input-box">
+            <label for="service">What service are you interested in?*</label>
+            <input list="services" placeholder="Choose one">
+            <datalist id="services">             
+              <option value="html">
+              <option value="css">
+              <option value="js">
+            </datalist>
+          </div><br>
+
+          <div class="input">
+            <h4>Would you like a video demo?</h4><br>
+            <input type="radio" id="yes" name="fav_language" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="fav_language" value="No">
+            <label for="no">No</label>
+          </div>
+
+          <div class="input-box button">
+            <input type="Submit" value="Submit">
+          </div>
+          
+        </form>
+    </div>
+  </div>
+
+</body>
+</html>

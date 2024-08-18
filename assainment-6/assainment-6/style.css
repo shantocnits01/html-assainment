@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav section start */
+
+.nav-logo {
+    width: 33%;
+}
+.nav-logo img{
+    width: 170px;
+    margin-left: 100px;
+    margin-top:10px;
+}
+.navbar-section {
+    display: flex;
+    background:rgb(170, 165, 197);
+    padding: 20px;
+ 
+}
+.nav-item {
+    width: 34%;
+    font-size: 10px;
+}
+.nav-item ul {
+    display: flex;
+    list-style: none;
+  
+
+}
+.nav-item ul li{
+    margin: 20px;
+
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    padding-top: 70px;  
+    margin-left: 40px;
+}
+
+.nav-list li a:hover{
+    color: black;
+    padding-left: 5px;
+}
+.nav-btn{
+   width: 33%;
+   margin-top: 25px;
+   margin-left: 280px;
+}
+.nav-btn a{
+   margin-left: 200px;
+   padding: 10px 25px;
+   background: rgb(48, 40, 40);
+   font-size: 22px;
+   color: white;
+   text-decoration: none;
+   border-radius: 10px;
+}
+.nav-btn a:hover{
+    background: rgb(185, 148, 0);
+}
+
+/* navbar section end */
+/* hero section start */
+.hero-sec{
+    height: 820px;
+    background-image:url(images.jpg);
+    text-align: center;
+    color: white;
+}
+.hero-sec {
+    text-align: center;
+    padding-top: 150px;
+
+}
+.hero-sec h1{
+    font-size: 100px;
+
+
+}
+.hero-sec p{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.hero-btn{
+    width: 200px;
+    margin: auto;
+    padding-top: 80px;
+  
+}
+.hero-btn a{
+    width: 200px;
+    margin: auto;
+    padding: 10px 50px;
+    background: rgb(48, 40, 40);
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/* hero section end */
+/* footer section start */
+.services {
+    padding-top: 50px;
+}
+.services-content{
+    display: flex;
+    justify-content: space-around;
+    padding:  90px;
+}
+.services-item
+{
+    border: 1px solid rgb(0, 0, 0);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 40px;
+    font-size: 100px;
+}
+.services-item p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.services-item i{ 
+    margin-top: 40px;
+}
+/* hero section end */
+/* footer section start */
+.footer{
+    background: rgb(55, 57, 56);
+    height: 350px;
+    margin-top: 50px;
+    color: white;   
+}
+.footer-item{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;   
+}
+.footer-item p {
+    padding: 8px;
+    font-size: 18px;
+}
+.copyright-sec{
+    text-align: center;
+    font-size: 30px;
+    background: rgb(55, 57, 56);
+    height: 90px;
+    padding-top: 30px;
+}
+.copyright-sec a{
+    text-decoration: none;
+    color: white;
+   
+
+}
